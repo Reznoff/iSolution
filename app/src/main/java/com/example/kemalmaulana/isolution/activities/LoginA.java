@@ -1,12 +1,14 @@
-package com.example.kemalmaulana.isolution;
+package com.example.kemalmaulana.isolution.activities;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 
 import androidx.annotation.NonNull;
 
+import com.example.kemalmaulana.isolution.R;
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -90,7 +92,9 @@ public class LoginA extends AppCompatActivity implements LoaderCallbacks<Cursor>
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                attemptLogin();
+//                attemptLogin();
+                // do something to handle shared preferences
+                startActivity(new Intent(LoginA.this, MainA.class));
             }
         });
 

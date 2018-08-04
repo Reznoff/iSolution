@@ -12,4 +12,41 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="title_activity_main">MainA</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test">TestA</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Main Activity-->
+    <string name="tab_kehadiran">Kehadiran</string>
+    <string name="tab_nilai">Nilai</string>
+    <string name="tab_jadwal">Jadwal</string>
+    <string name="tab_pembayaran">Pembayaran</string>
+    <string name="tab_reward">Reward</string>
+    <string name="tab_report">Report</string>
+    <string name="tab_kalender">Kalender</string>
+
+    <!--Kehadiran Fragment-->
+    <string name="entity_id_kehadiran">id_kehadiran</string>
+    <string name="entity_nis">nis</string>
+    <string name="entity_id_kelas">id_kelas</string>
+    <string name="entity_tanggal">tanggal</string>
+    <string name="entity_waktu">waktu</string>
+    <string name="entity_status">status</string>
+    <string name="entity_keterangan">keterangan</string>
+    <string name="list_keterangan_attending_pt1">Anak anda dengan NIS </string>
+    <string name="list_keterangan_attending_pt2">, telah dinyatakan masuk kelas pada </string>
+    <string name="list_keterangan_not_attending_pt1">Anak anda dengan NIS </string>
+    <string name="list_keterangan_not_attending_pt2">, telah dinyatakan tidak masuk karena terlambat dari batas waktu yang diberikan.</string>
+    <string name="list_status_attending">Masuk Kelas</string>
+    <string name="list_status_not_attending">Tidak Masuk Kelas</string>
+
 </resources>
